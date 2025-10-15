@@ -1,2 +1,45 @@
-# stm32-projects
-Practical learning in embedded systems with STM32 (Nucleo board)
+# STM32 Embedded Projects Portfolio
+
+This repository contains a collection of small embedded systems projects developed using the **Nucleo-F446RE (STM32)** board.  
+The goal is to consolidate my knowledge in **embedded software and hardware** through hands-on, self-learning projects.
+
+
+---
+
+## About Me
+I’m a hardware engineer currently focused on strengthening my skills in embedded systems using STM32 microcontrollers.  
+
+
+---
+
+## Projects
+
+| Project | Description | Technologies |
+|----------|--------------|---------------|
+| [Blink LED](./blink_led) | First GPIO test and delay handling | GPIO, HAL, Delay |
+| [PWM_LED](./PWM_led) | Control the onboard Green LED using PWM | GPIO, HAL, Timer, PWM |
+| [GPIO_Input_Button](./GPIO_input_button) | Onboard blue button configured as a digital input - pressing it turns on the green LED. | GPIO, HAL |
+| [Interrupt_Button](./interrupt_button) | Onboard blue button configured as an external interrupt - toggles the green LED on each press | GPIO, HAL, EXTI |
+| [Interrupt_Button](./interrupt_button) | Potentiometer analog input reading and adjust the green LED brightness according | GPIO, HAL, ADC |
+| [DHT11 Sensor Reading](./dht11_sensor) | Temperature & humidity reading via 1-wire protocol w/o libraries | GPIO, Timing, UART |
+
+
+---
+
+## Tools
+- **STM32CubeIDE**
+- **HAL Drivers**
+
+
+---
+
+## Next Steps
+- Add an RTOS (FreeRTOS)
+- Integrate I2C and SPI sensors
+- Send data to a server
+
+
+---
+
+**Contact:** [LinkedIn] (https://www.linkedin.com/in/tiagosm)
+**Full Portfolio:** [github.com/yourusername/stm32-projects](https://github.com/yourusername/stm32-projects)
