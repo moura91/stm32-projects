@@ -6,12 +6,12 @@ This basic example demonstrates GPIO configuration and toggling on the STM32 Nuc
 
 ### Hardware
 - **Board:** Nucleo-F446RE
-- **MCU:** STM32F446RETx
+- **MCU:** STM32F446R
 - **Onboard components used:** Green LED (LD2)
 
 ### Tools & Environment
-- **IDE:** STM32CubeIDE 1.16.1
-- **Firmware Package:** STM32CubeF4 v1.28.0 
+- **IDE:** STM32CubeIDE 1.19.0
+- **Firmware Package:** STM32CubeF4 v1.28.3 
 - **Language:** C
 - **HAL Drivers:** Yes
 
