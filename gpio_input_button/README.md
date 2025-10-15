@@ -16,7 +16,7 @@ This project is done using the STM32CubeIDE and a STM32 Nucleo board.
 - **HAL Drivers:** Yes
 
 ### Project Structure
-pwm_led/
+gpio_input_button/
 
 ├── Core/
 
