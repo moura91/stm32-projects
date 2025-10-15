@@ -42,4 +42,3 @@ I’m a hardware engineer currently focused on strengthening my skills in embedd
 ---
 
 **Contact:** [LinkedIn] (https://www.linkedin.com/in/tiagosm)
-**Full Portfolio:** [github.com/yourusername/stm32-projects](https://github.com/yourusername/stm32-projects)
