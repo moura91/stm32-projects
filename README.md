@@ -17,10 +17,10 @@ I’m a hardware engineer currently focused on strengthening my skills in embedd
 | Project | Description | Technologies |
 |----------|--------------|---------------|
 | [Blink LED](./blink_led) | First GPIO test and delay handling | GPIO, HAL, Delay |
-| [PWM_LED](./PWM_led) | Control the onboard Green LED using PWM | GPIO, HAL, Timer, PWM |
-| [GPIO_Input_Button](./GPIO_input_button) | Onboard blue button configured as a digital input - pressing it turns on the green LED. | GPIO, HAL |
-| [Interrupt_Button](./interrupt_button) | Onboard blue button configured as an external interrupt - toggles the green LED on each press | GPIO, HAL, EXTI |
-| [Interrupt_Button](./interrupt_button) | Potentiometer analog input reading and adjust the green LED brightness according | GPIO, HAL, ADC |
+| [PWM LED](./PWM_led) | Control the onboard Green LED using PWM | GPIO, HAL, Timer, PWM |
+| [GPIO Input Button](./GPIO_input_button) | Onboard blue button configured as a digital input - pressing it turns on the green LED. | GPIO, HAL |
+| [Interrupt Button](./interrupt_button) | Onboard blue button configured as an external interrupt - toggles the green LED on each press | GPIO, HAL, EXTI |
+| [ADC Potentiometer](./adc_potentiometer) | Potentiometer analog input reading and adjust the green LED brightness according | GPIO, HAL, ADC |
 | [DHT11 Sensor Reading](./dht11_sensor) | Temperature & humidity reading via 1-wire protocol w/o libraries | GPIO, Timing, UART |
 
 
