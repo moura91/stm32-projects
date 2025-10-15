@@ -17,11 +17,17 @@ This basic example demonstrates GPIO configuration and toggling on the STM32 Nuc
 
 ### Project Structure
 blink_led/
+
 ├── Core/
+
 │ ├── Inc/ → Header files
+
 │ └── Src/ → Source files
+
 ├── Drivers/ → HAL and CMSIS drivers
+
 ├── blink_led.ioc → STM32CubeMX configuration
+
 ├── README.md → Project description
 
 ### How It Works
