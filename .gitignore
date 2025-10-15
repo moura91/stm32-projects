@@ -1,0 +1,41 @@
+# ==========================
+# STM32CubeIDE / STM32CubeMX
+# ==========================
+
+# Build folders
+/Debug/
+/Release/
+/Core/Inc/*.d  # dependency files generated
+/Core/Src/*.o   # object files
+/Core/Src/*.elf
+/Core/Src/*.bin
+/Core/Src/*.hex
+*.map
+*.lst
+*.srec
+*.axf
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# STM32CubeMX generated files that can be regenerated
+*.ioc.backup
+*.ioc.user
+*.ioc~ 
+
+# IDE config folders
+.vscode/
+.idea/
+
+# MacOS or Linux hidden files
+.DS_Store
+Thumbs.db
+
+# Optional: binaries, libraries
+*.a
+*.lib
+*.dll
+*.so
