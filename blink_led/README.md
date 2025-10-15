@@ -22,13 +22,14 @@ blink_led/
 
 │ ├── Inc/ → Header files
 
-│ └── Src/ → Source files
+│ └── Src/ → Source files 
 
-├── Drivers/ → HAL and CMSIS drivers
+├── Drivers/ → HAL and CMSIS drivers 
 
-├── blink_led.ioc → STM32CubeMX configuration
+├── blink_led.ioc → STM32CubeMX configuration 
 
-├── README.md → Project description
+├── README.md → Project description 
+
 
 ### How It Works
 1. GPIO pin connected to the green LED (LD2) is configured as output.  
@@ -36,5 +37,7 @@ blink_led/
 3. A small delay is added between toggles to make the blinking visible.
 
 ### Demo
-TBD
+![Blink LED Demo](images/led_blink.gif)
+
+
 
