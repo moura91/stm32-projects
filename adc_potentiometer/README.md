@@ -52,7 +52,7 @@ adc_potentiometer/
 ## Build and Flash
 
 To compile and flash using STM32CubeIDE:
-1. Open the project folder (`pwm_led`) in STM32CubeIDE.
+1. Open the project folder (`adc_potentiometer`) in STM32CubeIDE.
 2. Build (`Ctrl + B`).
 3. Flash the firmware (`Run` → `Run As` → `STM32 Cortex-M C/C++ Application`).
 
