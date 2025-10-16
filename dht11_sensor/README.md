@@ -1,4 +1,4 @@
-# DHT11 Sensore Reading
+# DHT11 Sensor Reading
 
 ### Description
 This project demonstrates how to interface the **DHT11 temperature and humidity** sensor with the STM32 Nucleo board. The microcontroller reads the sensor data using a **single-wire** protocol and sends the temperature and humidity values over **UART** to the PC.
@@ -71,4 +71,4 @@ To compile and flash using STM32CubeIDE:
 3. Flash the firmware (`Run` → `Run As` → `STM32 Cortex-M C/C++ Application`).
 
 ### Demo
-![dht11_sensor](images/dht11_sensor.webm)
+![dht11_sensor](images/dht11_sensor.gif)
