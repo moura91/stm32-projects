@@ -22,6 +22,7 @@ I’m a hardware engineer currently focused on strengthening my skills in embedd
 | [Interrupt Button](./interrupt_button) | Onboard blue button configured as an external interrupt - toggles the green LED on each press | GPIO, HAL, EXTI |
 | [ADC Potentiometer](./adc_potentiometer) | Potentiometer analog input reading and adjust the green LED brightness according | GPIO, HAL, ADC |
 | [DHT11 Sensor Reading](./dht11_sensor) | Temperature & humidity reading via 1-wire protocol w/o libraries | GPIO, Timing, UART |
+| [Nunchuk I2C](./i2c_nunchuk) | Nunchuk I2C reading - sends the Nunchuk joysick positions and controls the green LED PWM according to the button selection | GPIO, Timing, UART |
 
 
 ---
@@ -35,7 +36,6 @@ I’m a hardware engineer currently focused on strengthening my skills in embedd
 
 ## Next Steps
 - Add an RTOS (FreeRTOS)
-- Integrate I2C and SPI sensors
 - Send data to a server
 
 
