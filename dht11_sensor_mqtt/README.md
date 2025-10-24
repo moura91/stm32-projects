@@ -29,7 +29,7 @@ The sensor reading without librareis is done according with the explanation ![WR
 
 
 ### HW Setup
-![DHT Sensor MQTT](images/dht11_sensor_mqtt.jpg)
+![DHT Sensor MQTT](images/dht11_sensor_mqtt.png)
 
 
 | Connection   | STM32 (Nucleo-F446RE) | ESP32-S3    | Description                                      |
