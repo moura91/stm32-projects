@@ -91,14 +91,6 @@ dht11_uart_mqtt/
 2. The ESP32-S2 receives the sensor data through UART, connects to a Wi-Fi network (SSID and password set in menuconfig), and publishes the received data to an MQTT broker under the topic esp32/dht11
 3. Data is monitored using the MQTT client with command *mosquitto_sub -h test.mosquitto.org -t "esp32/dht11" -v*
 4. The function ***void dht11(uint16_t *temp, uint16_t *humid)*** handles the single-wire communication protocol. It controls the GPIO line and uses TIM2 for timing, following the DHT11 datasheet sequence to read temperature and humidity values.
-  
-  
-### Main functions:
-- **HAL_ADC_Start ()** – enables ADC and starts conversion of the regular channels
-- **HAL_ADC_PollForConversion()** - start the conversion in the selected channel and keep waiting till the conversion is done
-- **HAL_ADC_GetValue()** - gets the converted value from data register of regular channel
-- **HAL_ADC_Stop()** – disables ADC and stop conversion of regular channels 
-- **__HAL_TIM_SET_COMPARE()** – sets the PWM for the LED
 
   
 ## Build and Flash
