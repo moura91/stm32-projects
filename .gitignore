@@ -18,3 +18,32 @@ Release/
 .DS_Store
 Thumbs.db
 
+# === ESP-IDF build files ===
+build/
+sdkconfig
+sdkconfig.old
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+idf.py.*
+project_description.json
+
+# === Visual Studio Code ===
+.vscode/
+*.code-workspace
+
+# === Python / scripts ===
+__pycache__/
+*.pyc
+.env/
+.venv/
+venv/
+env/
+
+# === Logs / temporary ===
+*.log
+*.tmp
+*.bak
+
+# === Misc ===
+*.swp
