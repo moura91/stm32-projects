@@ -24,7 +24,7 @@ I’m a hardware engineer currently focused on strengthening my skills in embedd
 | [DHT11 Sensor Reading](./dht11_sensor) | Temperature & humidity reading via 1-wire protocol w/o libraries | GPIO, Timing, UART |
 | [Nunchuk I2C](./i2c_nunchuk) | Nunchuk I2C reading - sends the Nunchuk joysick positions and controls the green LED PWM according to the button selection | I2C, Timer, UART |
 | [FreeRTOS blink](./freertos_blink) | Use FreeRTOS to control two tasks responsible for the LED blink | FreeRTOS, HAL, Timer |
-
+| [DHT11 Sensor MQTT Publish](./dht11_sensor_mqtt) | DHT11 sensor reading and send to MQTT broker | MQTT, UART, WiFi |
 
 ---
 
@@ -36,7 +36,6 @@ I’m a hardware engineer currently focused on strengthening my skills in embedd
 ---
 
 ## Next Steps
-- Send data to a server
 - Final project
 
 
